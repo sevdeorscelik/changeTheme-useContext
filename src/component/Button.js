@@ -1,7 +1,6 @@
 import React from "react"
 import { useContext } from "react";
 import ThemeContext from "../context/ThemeContext";
-import { BsLightbulbOffFill } from 'react-icons/bs'
 import { MdLightMode, MdNightlight } from 'react-icons/md'
 
 const Button = () => {

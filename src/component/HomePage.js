@@ -6,11 +6,11 @@ import ThemeContext from "../context/ThemeContext";
 
 const HomePage = () => {
 
-const data = useContext(ThemeContext)
+    const data = useContext(ThemeContext)
 
     return (
         <div className="HomePage">
-
+            <h1> {data.theme} Mode </h1>
             <header className="App-header">
 
                 <img src={logo} className="App-logo" alt="logo" />
